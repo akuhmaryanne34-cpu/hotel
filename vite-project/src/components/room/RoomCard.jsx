@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./roomcard.module.css";
+import styles from "./roomCard.module.css";
 
 const RoomCard = ({ room }) => {
   return (
