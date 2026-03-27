@@ -1,0 +1,89 @@
+.sidebar {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 14px;
+  border: 1px solid #eee;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+  transition: 0.3s;
+}
+
+/* TITLE */
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* GROUP */
+.group {
+  margin-bottom: 25px;
+}
+
+/* LABEL */
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* RANGE */
+.range {
+  width: 100%;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* VALUE TEXT */
+.value {
+  font-size: 13px;
+  color: #666;
+}
+
+/* OPTIONS */
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* CHECKBOX STYLE */
+.option input {
+  accent-color: black;
+}
+
+/* BUTTON */
+.button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #333;
+}
+
+/* 📱 TABLET */
+@media (max-width: 1024px) {
+  .sidebar {
+    padding: 18px;
+  }
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  .sidebar {
+    position: static; /* remove sticky */
+    width: 100%;
+  }
+}

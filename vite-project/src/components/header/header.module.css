@@ -15,6 +15,10 @@
   font-weight: 600;
   font-family: "Orbitron", sans-serif;
   letter-spacing: 2px;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  color: #111;
 }
 
 .nav {

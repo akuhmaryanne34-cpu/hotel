@@ -1,0 +1,85 @@
+.container {
+  padding: 80px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+   font-family: "Roboto",sans-serif;
+}
+
+.subtitle {
+  color: #424242;
+   font-family: "Arimo",sans-serif;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.card {
+  background: #000;
+  color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: left;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* QUOTE */
+.quote {
+  font-size: 40px;
+  opacity: 0.2;
+  position: absolute;
+  top: 15px;
+   font-family: "Arimo",sans-serif;
+  left: 20px;
+}
+
+/* TEXT */
+.text {
+  font-size: 14px;
+  line-height: 1.6;
+   font-family: "Arimo",sans-serif;
+  margin: 30px 0;
+}
+
+/* USER */
+.user h4 {
+  font-size: 14px;
+  margin: 0;
+   font-family: "Roboto",sans-serif;
+}
+
+.user p {
+  font-size: 12px;
+  color: #bbb;
+  margin: 0;
+  font-family: "Arimo",sans-serif;
+}
+
+/* 📱 Tablet */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

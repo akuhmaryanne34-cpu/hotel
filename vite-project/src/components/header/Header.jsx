@@ -8,11 +8,12 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>SCOPE HOTEL</div>
+      <Link to="/" className={styles.logo}>
+        SCOPE HOTEL
+      </Link>
 
       <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
-        <Link to="/">Rooms</Link>
-        <Link to="/experience">Experience</Link>
+        <Link to="/rooms">Rooms</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/about">About</Link>
       </nav>
