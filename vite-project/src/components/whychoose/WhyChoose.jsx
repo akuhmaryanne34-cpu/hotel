@@ -1,4 +1,4 @@
-import styles from "./Whychoose.module.css";
+import styles from "./whychoose.module.css";
 import { Crown, Wifi, Coffee, HomeTrendUp } from "iconsax-react";
 
 const features = [
